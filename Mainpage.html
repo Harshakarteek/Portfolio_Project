@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harsha'S Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Css Files/Mainpage.css" />
+  <link rel="stylesheet" href="Css Files/About_Intro.css" />
+  <link rel="stylesheet" href="Css Files/Aboutme.css" />
+  <link rel="stylesheet" href="Css Files/Experience.css" />
+  <link rel="stylesheet" href="Css Files/Projects.css" />
+  <link rel="stylesheet" href="Css Files/Contact.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-class">
+      <div class="head-heading">
+        <h1>Harsha Karteek</h1>
+      </div>
+
+      <nav>
+        <div class="head-nav">
+          <div id="About-div" onclick="document.getElementById('Aboutme').scrollIntoView({ behavior: 'smooth' });">
+            <h1>About</h1>
+          </div>
+          <div id="Experience-div"
+            onclick="document.getElementById('experience').scrollIntoView({ behavior: 'smooth' });">
+            <h1>Experience</h1>
+          </div>
+          <div id="Projects-div" onclick="document.getElementById('Projects').scrollIntoView({ behavior: 'smooth' });">
+            <h1>Projects</h1>
+          </div>
+          <div id="Blog-div">
+            <h1>Blog</h1>
+          </div>
+          <div id="Contact-div" onclick="document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });">
+            <h1>Contact</h1>
+          </div>
+        </div>
+    </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Intro Section -->
+    <section id="About_intro">
+      <div class="About1_div">
+        <div class="About_Logos_section">
+          <img src="Assets/HK.png" alt="Profile Picture" />
+        </div>
+        <div class="About_Intro_section">
+          <div class="About_Intro_section_text">
+            <p>Hello, I'm</p>
+            <h1>Harsha Karteek</h1>
+            <h2>Full Stack Developer</h2>
+          </div>
+        </div>
+        <div class="About_button_section">
+          <button class="btn btn-color-1"
+            onclick="window.open('https://drive.google.com/drive/folders/1PFQXYAohlebSG67e5ZJRN_kBQZ37YANK?usp=sharing')">
+            Download Resume
+          </button>
+          <button class="btn btn-color-2"
+            onclick="document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });">
+            Contact Info
+          </button>
+          <div class="about-socials">
+            <img class="about-button_imgs" src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+              onclick="window.open('https:www.linkedin.com/in/harsha-karteekgamedev')" />
+            <img class="about-button_imgs" src="./assets/github.png" alt="My Github profile" class="icon"
+              onclick="window.open('https://github.com/Harshakarteek')" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Aboutme">
+      <div class="Aboutme_Container">
+        <p class="section-tag">Get To Know More</p>
+        <h1>About Me</h1>
+
+        <div class="Aboutme_data">
+          <div class="Aboutme_img">
+            <img src="Assets/HK.png" alt="Profile Logo" />
+          </div>
+          <div class="Aboutme_text">
+            <div class="Aboutme_Textcontainer">
+              <div class="text1 card">
+                <h3>Experience</h3>
+                <p>2+ Years</p>
+                <p>Full Stack Development</p>
+              </div>
+              <div class="text2 card">
+                <h3>Education</h3>
+                <p>B.Tech</p>
+                <p>Computer Science</p>
+              </div>
+            </div>
+            <p>
+              I’m a dedicated full-stack developer with a strong interest in creating clean, efficient, and visually
+              appealing web applications. I enjoy solving problems, learning new technologies, and turning ideas into
+              functional projects. With knowledge in both frontend and backend development, I aim to build applications
+              that are fast, responsive, and user-centric. I’m always exploring new tools and improving my skills to
+              deliver better results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="Experience_Container">
+        <p class="section-tag">Explore My</p>
+        <h1>Experience</h1>
+
+        <div class="Box_container">
+          <article class="box card">
+            <h3>Frontend Development</h3>
+            <div class="table-wrap">
+              <table class="skills-table" aria-label="Frontend skills">
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td>Basic</td>
+                  </tr>
+                  <tr>
+                    <td>CSS</td>
+                    <td>Basic</td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>Basic</td>
+                  </tr>
+                  <tr>
+                    <td>React</td>
+                    <td>Basic</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+
+          <article class="box card">
+            <h3>Backend Development</h3>
+            <div class="table-wrap">
+              <table class="skills-table" aria-label="Backend skills">
+                <thead>
+                  <tr>
+                    <th>Skill</th>
+                    <th>Level</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Node.js</td>
+                    <td>Basic</td>
+                  </tr>
+                  <tr>
+                    <td>Express</td>
+                    <td>Basic</td>
+                  </tr>
+                  <tr>
+                    <td>MongoDB</td>
+                    <td>Basic</td>
+                  </tr>
+                  <tr>
+                    <td>SQL</td>
+                    <td>Basic</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="Projects">
+      <div class="Project_Container">
+        <p class="section-tag">Browse My Recent</p>
+        <h1>Projects</h1>
+        <div class="Project_mainbox">
+
+          <div class="Prj" id="prj1" onclick="window.location.href='../Youtube Clone Project/Youtube.html'"><img
+              src="Assets/youtube-logo.svg" alt="Youtube logo"> Youtube Clone</div>
+          <div class="Prj" id="prj2" onclick="window.location.href='../Hotstar clone Project/Hotstar.html'"><img
+              src="Assets/Hotstar logo.png" alt="Hotstar logo">Hotstar
+            Clone</div>
+          <div class="Prj" id="prj3">Project 3</div>
+          <div class="Prj" id="prj4">Project 4</div>
+          <div class="Prj" id="prj5">Project 5</div>
+          <div class="Prj" id="prj6">Project 6</div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <section id="Contact">
+      <div class="Contact_Container">
+
+        <p class="section-tag">Get in Touch</p>
+        <h1>Contact Me</h1>
+
+        <div class="Contact_box">
+          <div class="contact-item" onclick="window.location.href='mailto:harshakarteek007@gmail.com'">
+            <img src="Assets/email.png" alt="Email icon" />
+            <p>harshakarteek007@gmail.com</p>
+          </div>
+          <div class="contact-item" onclick="window.open('https:www.linkedin.com/in/harsha-karteekgamedev')">
+            <img src="Assets/linkedin.png" alt="LinkedIn icon" />
+            <p>LinkedIn</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>

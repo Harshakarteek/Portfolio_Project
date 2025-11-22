@@ -1,0 +1,123 @@
+.About1_div {
+  min-height: 90vh; 
+  width: 100%;
+  padding: 50px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px; 
+  position: relative;
+  text-align: center;
+}
+
+.About_Logos_section {
+  flex: 1 1 350px;
+  max-width: 400px;
+  background-color: transparent;
+}
+
+.About_Logos_section img {
+   width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  padding: 10px;
+  object-fit: cover;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.About_Intro_section {
+  flex: 1 1 400px;
+  padding: 20px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+}
+
+.About_Intro_section_text p {
+    font-size: 1.25rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.About_Intro_section_text h1 {
+    font-size: 2rem; 
+    color: #333;
+    margin: 0;
+}
+
+.About_Intro_section_text h2 {
+    font-size: 1.75rem;
+    color: #007bff;
+    margin-top: 5px;
+}
+
+
+.About_button_section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.About_button_section .btn {
+  height: 50px;
+  width: 200px;
+  border-radius: 25px; 
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-color-1 {
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.btn-color-1:hover {
+  background-color: #007bff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+.btn-color-2 {
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #333;
+}
+
+.btn-color-2:hover {
+  background-color: #f1f1f1;
+  transform: translateY(-2px);
+}
+
+.about-socials {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.about-button_imgs{
+    height: 40px; 
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.about-button_imgs:hover {
+    transform: translateY(-3px);
+    opacity: 0.8;
+}
+
+@media (max-width: 500px) {
+  .About_Intro_section_text h1 { font-size: 2.5rem; }
+  .About_Intro_section_text h2 { font-size: 1.5rem; }
+  .About_button_section {
+    flex-direction: column; 
+  }
+}
